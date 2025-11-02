@@ -1,0 +1,3911 @@
+object frmLotofacil: TfrmLotofacil
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 650
+  ClientWidth = 790
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object layConteudoIndex: TLayout
+    Align = Contents
+    Padding.Left = 8.000000000000000000
+    Padding.Top = 8.000000000000000000
+    Padding.Right = 8.000000000000000000
+    Padding.Bottom = 8.000000000000000000
+    Size.Width = 790.000000000000000000
+    Size.Height = 650.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object rectLotofacilFundo: TRectangle
+      Align = Contents
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFF0A0A0A
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFD725D1
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StartPosition.Y = 1.000000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Fill.Gradient.StopPosition.Y = 0.000000000000000000
+      Size.Width = 790.000000000000000000
+      Size.Height = 650.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object layInformacoes: TLayout
+      Align = Client
+      Size.Width = 774.000000000000000000
+      Size.Height = 289.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object rectInformacoesFundo: TRectangle
+        Align = Contents
+        Fill.Color = xFF202020
+        Opacity = 0.600000023841857900
+        Size.Width = 774.000000000000000000
+        Size.Height = 289.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+      end
+      object layAposta: TLayout
+        Align = Left
+        Padding.Left = 8.000000000000000000
+        Padding.Top = 8.000000000000000000
+        Padding.Right = 8.000000000000000000
+        Padding.Bottom = 8.000000000000000000
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 378.000000000000000000
+        Size.Height = 273.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object layApostaCombinacoes: TLayout
+          Align = Bottom
+          Padding.Top = 6.000000000000000000
+          Padding.Bottom = 6.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 187.000000000000000000
+          Size.Width = 362.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object sbxNumerosCartela: TSpinBox
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Right
+            StyleLookup = 'spinboxstyle'
+            TabOrder = 0
+            Cursor = crIBeam
+            DecimalDigits = 0
+            Min = 15.000000000000000000
+            Max = 20.000000000000000000
+            Value = 15.000000000000000000
+            Position.X = 282.000000000000000000
+            Position.Y = 6.000000000000000000
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            Size.Width = 80.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family]
+            OnChangeTracking = sbxNumerosCartelaChangeTracking
+          end
+          object lblNumerosCartela: TLabel
+            Align = Left
+            StyledSettings = [Family]
+            Position.Y = 6.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = 'N'#250'meros Cartela'
+            TabOrder = 1
+          end
+        end
+        object layApostaLotofacil: TLayout
+          Align = Top
+          Position.X = 8.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 362.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object imgLotofacil: TImage
+            MultiResBitmap.Height = 96
+            MultiResBitmap.Width = 96
+            MultiResBitmap = <
+              item
+                Width = 96
+                Height = 96
+                PNG = {
+                  89504E470D0A1A0A0000000D4948445200000060000000600806000000E29877
+                  380000000473424954080808087C08648800000F0649444154789CED9D79985B
+                  D575C07FE74933E30D6C8F9EBCD3B29825290D0462D63876808053BE42F8585B
+                  306028183C3332769B38C9D7364A9312088BB1A4C1359BCB1662303534805942
+                  F9A049D80A84BDC10E7BB03DF3A419C736D833D23BFD436363CFDC27E93D3D0D
+                  43AADFF7CD1FBECB3947EFBCE5DE73CFBD863A75EAD4A953A74E9D3A75EAD4A9
+                  53A74E9D3AFF5F90CFDA807268BC7D16EAB60187002038286F23BA8A7CD32AE9
+                  9ABBF1B3B5B03A86AC03B439B53B62DD8CE869259A75217A35A3B946D626B60D
+                  9A712132241DA0241BB19B1F07F96A855DDE41E522C9B63E5E53C36A80F5591B
+                  60C46E9EEFE3E203EC85E8236AA7AFD549CB46D4CCAE1A30E49E00B5AFDC0D46
+                  BC078C0D28E26D44BE47A7F31F42321FA66DB560E8392096998DE86D21885A8F
+                  E8BDA8FC06D50E4446A032197127804C06762F2A9475A0CF13293C261D976D08
+                  41AF2F869E03ECF49DC0DF1A6A1E27B2ED640A4DC7802C046686AC7A1BE8ED88
+                  FE543AE7AF0959B62743D1012FB07DC8B93322274A67EB433BDAC5D3A7A32C01
+                  26866CC21654664BB67555C8728D0CC58FF0DEC652C9BFB0CB3F3BDBEE219FFF
+                  222AB7001AA2FE9188FE5C6399634394E9C9507440D4583A62F4800997742FE8
+                  966CEB85B87202B036441B1A11FD778DB78F0A51A691A1E800D758BAB9A3C1AB
+                  83E45A1FC3C97E016536F094A70C7F4C81C20521C82989F96EFB6CE966FB0865
+                  179A2601BFF3EA2424F364B903B843EDC513A161067008AA7B238C06F904743D
+                  E83A907508596054B10D7380910384AA9C0CA442F9551E0C4107E8FB207F36A0
+                  581AF6A284037669EA2C5807FCBCEFAF1CCBB539F39F58FAA8A1EE804AF455C3
+                  507C05BD632C75F5A09A691CD6F06B8F9AA093C18A198A0E78D9582A7A68CD34
+                  6EDB769447CD4735D3D9474D5E411ACB1C8EA597A21C054C057A81D7419F01BD
+                  07A7EB4921E9F1A1D4173DA6273395A4E5DDAF0A2CB9D43C90D5D742D7D58F50
+                  27623AFEAA91E487A7102D377AF800D59FB2DB6E37C9BB73B6EE2223DE3E0A75
+                  B340A3A1DF3471DAFE273483018DB54F43DC67315D0B957325DB7A7B98FAFA13
+                  DA2B4849365218765F05171F600F44D26CDEBC46EDF4493B574867CB6610F33B
+                  5938210C5BB7A324A3882EC57C236E41B6DC17A63E13E17D036CFB5CE0389FBD
+                  A600F7AB9DBE4BC72E1BBDA35479C4D85AC37500F1D822F0F8B6086971166D0A
+                  559F81501CA0DC1D01FD4E1522CE22D2F382DA99620CC812B303E048DDFDDAE6
+                  2AF4EC40E399AFA1243DAABBD9D67B55187ACA11CE1310EF381AD8B74A29FB80
+                  3EA5F1CC5FD139EF6560BDA14D94C6C6524B9415A11316EF89EA0A3C0721B248
+                  FEB83057AD9E4A08C701CA573C6A9E628C0E43AC89A0E7004F96913412D5FB89
+                  67CE47E52173133DA70A4BD1D1D78F251F7D1098E0D1E4499C961BABD1E187B0
+                  BE01FB194B551E92B5896DD2D9B25E9CC49DE2B4CDC46216F0FB12B2A2283763
+                  A9578473BAC697047ADA74D2B21134E41F01BEE8D1641D56E14C41C28CAE9624
+                  2407B8E619A3F0DE80A28EB647686CFC12A2ED25040ACA85C06673B575865F0B
+                  95A4454FCF4D20D33C9A1470F5FCC15E150B692266F59A43F26EC4D45A3E9AFB
+                  31D0AAE3D24FE0722BA64058117338583957D1CB2BBD5395A4851DBB01F81BCF
+                  46A20B25977854634B2743EFE1581C06B21FAAFB804C0104C145F56DD47A158B
+                  47401E2A0E9B83138E0344BB8CD75F4BC752A4A3ED5E1DBBE47744ACD51487A4
+                  95B21FCDE96F90C31440EB67C2DD11EC0D77026796687523C86E6AA77F0BF983
+                  4076BA9F769A222880C4109D8672016897DAA97FC599709D7046C187FD3B08E7
+                  15E462CE4EB364B4B17C27A46BFE6B88F575FC2EA8887551B9268A0AF6FA3425
+                  2FBE6C04B908E5C780DF80DF5890AB896F78A898CDE19FB03EC27F3496AA29AE
+                  3F10E96C594B548FC22B1067ECA427AB9D9EE4555DBCF333FF06726969415AF6
+                  26298B723C8CB82148D7701C20EA919FA915DF15B23ED1493E3F1378A9C22E0D
+                  207F67D43A35D5446CC30AE0E24AF587C05941D691439A07581E72BCCACD48F7
+                  826E5C3D09AF3581818A5B74CFE5C3762999B4CCA65B9E4438D58FEE90B8C46F
+                  87701C60E91EC67255C7AF28C9253E2412398ECA62F1E3D8B469C79054EDF424
+                  7A7A1E050EF7ABB71F6F1487C97A0EAE1E8946A7D01B6946A353103911F461B3
+                  F17A845F45E18C82540F330614AD92132E4F64C3BCB775DCF5DFC42D3C05947E
+                  478B2C046ED3F1E9BFA4C06A6072109DA0AF80AC44AD95926D79D3A35117F007
+                  6D4EFD0ACB63E0E193AA1DA0E3978EA390FF9AB152222F18CB2B403AE6BDA2F6
+                  9253C05A0D3495687A90C6DB7F42C15D50A69D41095994E550B8499CCB2A5A6F
+                  06C06286B9427DC78FAA7F05E50BF30153CAC8063AECD7AB112DCEFC2710CEA3
+                  5C9A89BADFC5DFC57F0ED1398C1C35459CB66FFBBAF845CB12E662F19D9B54D5
+                  13A0F6924341FFC16C8CAE0C3A39D9454C67DB0AB5D3078067E8B85214781057
+                  2E975CEBD300740610124F9D867AAC7BA8AEF42B2FB00374D2B211F4F4DC8179
+                  E950B1645950D90370B23FC28E1D029C54B6ED405CD095585C2E1D89CAE71906
+                  74D2329B9E1E8F18963A3436DDEF5766F057506FCF5578E5CD08F7C986B65703
+                  CB1E202EE912CDCF073EF1D14D51EE45AD03C5499C59EDC507A0A7F73A609CD9
+                  48B9AE2FC6E58B404F8036A78E47F19A6176E146DB82C835EA9A72ED703E694C
+                  90D745C0F00A7B3D0F324FB2E12DE0AB9D3A11F46C8FEA371939EA9A20AF34DF
+                  0E5054B03257E0995121F3247BE91FFC9BD25FCFB206EC6DE7B3557E80A89FA1
+                  A58B25FF241D215E7C925190B4477501572FE89FDD5129FE5F41766606F06563
+                  9D70AB38AD95A4037AA253534D6AA72FC1EE59037203FEC7F516CA9D3A61F19E
+                  D5D8B10BB67D1AB09747ED62C9259E092A3AC837C02BB2F836D6D696A08668BC
+                  7D94C6D36D74CB5A6029F0E74165A1C4C837ACEC1FA6088E5EE851B196C6C61F
+                  542339C03740A679EC87B84A367C7B8B5F691A5FB22F2AF350770EE566BDFE24
+                  1FCAE62D37293ABB9A25C6BE91CF4C73A52E0AF2E1DD99000E50F3627654EFAD
+                  58C2D454135DD62CC4BD0495E309F624BE81F7DAEE764D67136B7F9D2C3F0920
+                  BF48BE6706E6EBF411D95CD5895B417EF81863A936944C735492518DB7CFD258
+                  6639DDB21ED1FB406605B241C8E0341E0CFC6FF9B6FA638D654EF6AD633BAA1E
+                  6BC8F28B30F254830C43DF07BE30A0B4905FA1B1F48F88465F63ABF6328CB168
+                  615F5C3D1091A3519D8EBA7695D9A8795412E2B42E0550328B41CB4DF82C44EF
+                  D058EA58C9269EF3AD51C563CF9A3EEB5B9681200E781893036026C24C0AF962
+                  6468471062FBFA6AD579C01BC13D45B2F39FD85132C6BD956EF921DE393EDB19
+                  85C86A1DBB648674CDF797F12C8C367EF20A5AF5501B823CFE05F71660B077A0
+                  6F008E1367A78B0F140FE8D04A97029B8958FFA5B176D3CD530AF3C0423C3236
+                  7CE2DB017D7790D7A4A416ACC1D2A33DD3D25D6E04ADF45D1C47DC07744CA6F2
+                  21AE7ACD6FADF115CB2841B0589093FD0EA8EFC0533F3E46C56BE1633BAF6315
+                  A64B47C273614772890F411EF0A1776FA2FA2B6D4E951941EDC09CA8251ACA06
+                  F1400E1092799CDC69C042101F29DCB2095881E8E9589A44B4D4EBE039F2F9AF
+                  5694A9E696CCB23331054B7EA3F1D4F4F24D3DDFF59E19197E081C0D15927971
+                  DA1613F96422AAE7013F037E4B71D9AE0BD4019E2BAE38C902601A8ED32C4EDB
+                  59A8B515572E2F21FE651A1B4F94EE05DD151993CBFD1295777DFE84D1A8ACEE
+                  BF4164006A7518CB8550D2E407FDAC081DBBE44022D63378A5232AAFD2235F97
+                  4DAD595F72EDD40F41FE39884920D7E238DF17923D032AE3A9F351596EE87787
+                  386DB303E8DB8541DD25A9CDA9DD8958ABF0CE055D43831EEBF7E20360711BC1
+                  CE8C10D0BFC78E3DABF1F6830DF55EA9F7A1ECA01CDC8DDA965C4B71D7A4891C
+                  AE7E4BD6270244D5413A12BF573BFD3C705840EB0E46DD17D54EFF02B196D223
+                  CF1271BF82EA1C0F8D9526909564D01CA0B1CC2925A28A9B8113249778A33A25
+                  721BA2E51CE0E2FDE40B7012EA9E644C33F8944F88BAA19C4F3728AF20DD73F9
+                  3044AFF36EA02DA16C3F8DE457B2D31CDC030B7F4B9B266E0FFAA49A8CA93D5B
+                  36CF05069EFF50E466C926C238A20CE9B86C03C2F315341D4EF0E36D3E46DCAB
+                  03F61D40CD1DA02C6B40F9AE47F53B887559C80ABD7658F6672A2AF7531C3657
+                  4A1E9139611E6956FB2720DEFB0DBC826562CDAB7687C9002CB7ECA68D4FF5EB
+                  C9B8BA1CE10ABC623E9FF201AE9E289DAD7757655F3F6AEF0097D33D6AFE5B3A
+                  5BCC49AED5D031F159FCDCD5962C4439088DEE8FCAB908AB28AE3374011F203C
+                  067A31C37AF7975CA272E756C8208C82BC4E39291BC70F84704641493F097CCB
+                  47B76F22BDAB5039573ADB6A7A36447F6AFF0488C7217C8D4D95BEAB83F0A247
+                  79892743A621BCAAF1D4153A35E52FC9B70A06631464D6D1D35DBBC3B6555E31
+                  960B6F006F95E819456511DD3CA776EAAF6B62DB00936A8CDAE9B5C03E86AA5F
+                  83AE42E47D541BC18AA3C4111DCE8E50856C04DEC2E56972CE9B95AEC1EAB8EB
+                  BF845B30A522BE454FEF913436DC031C535690F034054D92CBFDB226E7143138
+                  0EB81DA8EA78813ED6010FA072B3645B4BAEC7EA6E99184DC6DD393971DA62C5
+                  ACBB9E0C95EF21FB10640514EE12677EE03D0F266AEF80714B8EC2B5BCCE640B
+                  CA6A0A854BA4EBB2F78D3A8B873E99D629368AD3B623AB436399F3105D82BF7C
+                  A4AEBE53BD5E025EC2E23D848FD896EFAA387CBE1383128ED658FA16048FA056
+                  60BA11996B1A97F7EDDA312DE4748BD3B6CBE6716D6EDF83887B5371AB69F588
+                  D3E6EB9A0E4E28A2A9B115783064A963505DA1B1CCF20127DC167ABD56DA069E
+                  5D916BF980CED65908170458D4A99A415B90E93B32E04CE0FBC05F842B5CDE05
+                  AE46741585429448E43630EEE3BA479C36CF833E94A4453C762ACABF10F0CC50
+                  BF4FC0E0AF8891B418173B1257A681EE0FC4800268172AB9E2A66FAB6F07A23B
+                  193806E448C078F0874FED178B93287B1690B2AC8178EF29A89E0DCCC2BC0BC8
+                  C89077401074DC75E371A37341BF0704CD78DE8CAB932597301FABE0A57BF4F5
+                  6369C89F86CAA9084750E683FD27E980ED683CF565D4BAABEFC9F187E87CE94C
+                  54750EB492B4686E3E80881C8E7204B01F828D62533C5A67D49FB403A06F7360
+                  6FCF95282D546EFFCF70B2B36B3599AA86CF9D03B6A3767A267025A5D7807B11
+                  AEA173FC3F86B165B6167C6E1D007DFBD5E2EDD3FB3E968751FCA08F42F91091
+                  8791C28D83F9FFC1D4A953A74E9D3A75EAD4A953A74E9DCF01FF07B5B1426A2D
+                  5075A00000000049454E44AE426082}
+                FileName = 'D:\Develops\Imagens e Icones\png96\Clover_96px.png'
+              end>
+            Align = Left
+          end
+          object lblApostaLotofacil: TLabel
+            Align = Client
+            StyledSettings = [Family]
+            Size.Width = 312.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 34.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            Text = 'Lotof'#225'cil'
+            TabOrder = 1
+          end
+        end
+        object layApostaJogos: TLayout
+          Align = Bottom
+          Padding.Top = 6.000000000000000000
+          Padding.Bottom = 6.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 152.000000000000000000
+          Size.Width = 362.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object sbxNumerosJogos: TSpinBox
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Right
+            StyleLookup = 'spinboxstyle'
+            TabOrder = 0
+            Cursor = crIBeam
+            DecimalDigits = 0
+            Min = 1.000000000000000000
+            Max = 4.000000000000000000
+            Value = 1.000000000000000000
+            Position.X = 282.000000000000000000
+            Position.Y = 6.000000000000000000
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            Size.Width = 80.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family]
+            OnChangeTracking = sbxNumerosJogosChangeTracking
+          end
+          object lblNumeroJogos: TLabel
+            Align = Left
+            StyledSettings = [Family]
+            Position.Y = 6.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = 'Nr. Jogos'
+            TabOrder = 1
+          end
+        end
+        object layApostaValor: TLayout
+          Align = Bottom
+          Padding.Top = 6.000000000000000000
+          Padding.Bottom = 6.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 117.000000000000000000
+          Size.Width = 362.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object lblValorCartela: TLabel
+            Align = Client
+            StyledSettings = [Family]
+            Size.Width = 282.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = 'Valor da Cartela Simples'
+            TabOrder = 0
+          end
+          object edtValorCartela: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Right
+            TabOrder = 1
+            Text = '3,50'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.HorzAlign = Trailing
+            Position.X = 282.000000000000000000
+            Position.Y = 6.000000000000000000
+            Size.Width = 80.000000000000000000
+            Size.Height = 23.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family]
+            OnChangeTracking = edtValorCartelaChangeTracking
+          end
+        end
+        object layValorAproximado: TLayout
+          Align = Bottom
+          Padding.Left = 16.000000000000000000
+          Padding.Right = 16.000000000000000000
+          Margins.Top = 8.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 230.000000000000000000
+          Size.Width = 362.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object rectValorAproximado: TRectangle
+            Align = Contents
+            Fill.Color = xFF0A0A0A
+            Size.Width = 362.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+          end
+          object lblValorAproximado: TLabel
+            Align = Client
+            StyledSettings = []
+            Size.Width = 330.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Courier New'
+            TextSettings.Font.Size = 20.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = 'R$ 0,00'
+            TabOrder = 1
+          end
+        end
+      end
+      object layLista: TLayout
+        Align = Client
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Size.Width = 372.000000000000000000
+        Size.Height = 273.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object gplLista: TGridPanelLayout
+          Align = Client
+          Size.Width = 372.000000000000000000
+          Size.Height = 273.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ColumnCollection = <
+            item
+              Value = 20.000000000000000000
+            end
+            item
+              Value = 20.000000000000000000
+            end
+            item
+              Value = 20.000000000000000000
+            end
+            item
+              Value = 20.000000000000000000
+            end
+            item
+              Value = 20.000000000000000000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = btnLista01
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = btnLista02
+              Row = 0
+            end
+            item
+              Column = 2
+              Control = btnLista03
+              Row = 0
+            end
+            item
+              Column = 3
+              Control = btnLista04
+              Row = 0
+            end
+            item
+              Column = 4
+              Control = btnLista05
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = btnLista06
+              Row = 1
+            end
+            item
+              Column = 1
+              Control = btnLista07
+              Row = 1
+            end
+            item
+              Column = 2
+              Control = btnLista08
+              Row = 1
+            end
+            item
+              Column = 3
+              Control = btnLista09
+              Row = 1
+            end
+            item
+              Column = 4
+              Control = btnLista10
+              Row = 1
+            end
+            item
+              Column = 0
+              Control = btnLista11
+              Row = 2
+            end
+            item
+              Column = 1
+              Control = btnLista12
+              Row = 2
+            end
+            item
+              Column = 2
+              Control = btnLista13
+              Row = 2
+            end
+            item
+              Column = 3
+              Control = btnLista14
+              Row = 2
+            end
+            item
+              Column = 4
+              Control = btnLista15
+              Row = 2
+            end
+            item
+              Column = 0
+              Control = btnLista16
+              Row = 3
+            end
+            item
+              Column = 1
+              Control = btnLista17
+              Row = 3
+            end
+            item
+              Column = 2
+              Control = btnLista18
+              Row = 3
+            end
+            item
+              Column = 3
+              Control = btnLista19
+              Row = 3
+            end
+            item
+              Column = 4
+              Control = btnLista20
+              Row = 3
+            end
+            item
+              Column = 0
+              Control = btnLista21
+              Row = 4
+            end
+            item
+              Column = 1
+              Control = btnLista22
+              Row = 4
+            end
+            item
+              Column = 2
+              Control = btnLista23
+              Row = 4
+            end
+            item
+              Column = 3
+              Control = btnLista24
+              Row = 4
+            end
+            item
+              Column = 4
+              Control = btnLista25
+              Row = 4
+            end>
+          RowCollection = <
+            item
+              Value = 20.000000000000000000
+            end
+            item
+              Value = 20.000000000000000000
+            end
+            item
+              Value = 20.000000000000000000
+            end
+            item
+              Value = 20.000000000000000000
+            end
+            item
+              Value = 20.000000000000000000
+            end>
+          object btnLista01: TSpeedButton
+            Tag = 25
+            Action = actBotao1
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista02: TSpeedButton
+            Tag = 25
+            Action = actBotao2
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista03: TSpeedButton
+            Tag = 25
+            Action = actBotao3
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400009155273440000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista04: TSpeedButton
+            Tag = 25
+            Action = actBotao4
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista05: TSpeedButton
+            Tag = 25
+            Action = actBotao5
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista06: TSpeedButton
+            Tag = 25
+            Action = actBotao6
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista07: TSpeedButton
+            Tag = 25
+            Action = actBotao7
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista08: TSpeedButton
+            Tag = 25
+            Action = actBotao8
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400009155273440000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista09: TSpeedButton
+            Tag = 25
+            Action = actBotao9
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista10: TSpeedButton
+            Tag = 25
+            Action = actBotao10
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.599998474121090000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista11: TSpeedButton
+            Tag = 25
+            Action = actBotao11
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.599990844726560000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista12: TSpeedButton
+            Tag = 25
+            Action = actBotao12
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.599990844726560000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista13: TSpeedButton
+            Tag = 25
+            Action = actBotao13
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400009155273440000
+            Size.Height = 44.599990844726560000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista14: TSpeedButton
+            Tag = 25
+            Action = actBotao14
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.599990844726560000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista15: TSpeedButton
+            Tag = 25
+            Action = actBotao15
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.599990844726560000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista16: TSpeedButton
+            Tag = 25
+            Action = actBotao16
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista17: TSpeedButton
+            Tag = 25
+            Action = actBotao17
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista18: TSpeedButton
+            Tag = 25
+            Action = actBotao18
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400009155273440000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista19: TSpeedButton
+            Tag = 25
+            Action = actBotao19
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista20: TSpeedButton
+            Tag = 25
+            Action = actBotao20
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista21: TSpeedButton
+            Tag = 25
+            Action = actBotao21
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista22: TSpeedButton
+            Tag = 25
+            Action = actBotao22
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400001525878910000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista23: TSpeedButton
+            Tag = 25
+            Action = actBotao23
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.400009155273440000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista24: TSpeedButton
+            Tag = 25
+            Action = actBotao24
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+          object btnLista25: TSpeedButton
+            Tag = 25
+            Action = actBotao25
+            Align = Client
+            StyledSettings = [Family]
+            ImageIndex = -1
+            Margins.Left = 5.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 64.399993896484380000
+            Size.Height = 44.600006103515630000
+            Size.PlatformDefault = False
+            StyleLookup = 'speedbuttonstyle'
+            TextSettings.Font.Size = 22.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claFuchsia
+            TextSettings.Trimming = None
+          end
+        end
+      end
+    end
+    object layAcoes: TLayout
+      Align = Bottom
+      Margins.Top = 8.000000000000000000
+      Margins.Bottom = 8.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 305.000000000000000000
+      Size.Width = 774.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object gplAcoes: TGridPanelLayout
+        Align = Client
+        Size.Width = 774.000000000000000000
+        Size.Height = 35.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 33.330000000000000000
+          end
+          item
+            Value = 33.330000000000000000
+          end
+          item
+            Value = 33.330000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = rectAcoesLimpar
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = rectAcoesAutoCompletar
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = rectAcoesGerar
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        object rectAcoesLimpar: TRectangle
+          Align = Client
+          Fill.Color = xFF202020
+          Padding.Left = 2.000000000000000000
+          Padding.Top = 2.000000000000000000
+          Padding.Right = 2.000000000000000000
+          Padding.Bottom = 2.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Size.Width = 253.974212646484400000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object btnAcoesLimpar: TSpeedButton
+            Action = actLimpar
+            Align = Client
+            StyledSettings = [Family, Style]
+            ImageIndex = -1
+            Size.Width = 249.974212646484400000
+            Size.Height = 31.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.Trimming = None
+            OnMouseEnter = btnAcoesLimparMouseEnter
+            OnMouseLeave = btnAcoesLimparMouseLeave
+          end
+        end
+        object rectAcoesAutoCompletar: TRectangle
+          Align = Client
+          Fill.Color = xFF340244
+          Padding.Left = 2.000000000000000000
+          Padding.Top = 2.000000000000000000
+          Padding.Right = 2.000000000000000000
+          Padding.Bottom = 2.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Size.Width = 253.974212646484400000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object btnAcoesAutoCompletar: TSpeedButton
+            Action = actCompletar
+            Align = Client
+            StyledSettings = [Family, Style]
+            ImageIndex = -1
+            Size.Width = 249.974212646484400000
+            Size.Height = 31.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.Trimming = None
+            OnMouseEnter = btnAcoesAutoCompletarMouseEnter
+            OnMouseLeave = btnAcoesAutoCompletarMouseLeave
+          end
+        end
+        object rectAcoesGerar: TRectangle
+          Align = Client
+          Fill.Color = xFFF510E5
+          Padding.Left = 2.000000000000000000
+          Padding.Top = 2.000000000000000000
+          Padding.Right = 2.000000000000000000
+          Padding.Bottom = 2.000000000000000000
+          Size.Width = 257.974182128906300000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 5.000000000000000000
+          YRadius = 5.000000000000000000
+          object btnAcoesGerar: TSpeedButton
+            Action = actGerar
+            Align = Client
+            StyledSettings = [Family, Style]
+            ImageIndex = -1
+            Size.Width = 253.974182128906300000
+            Size.Height = 31.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.Trimming = None
+            OnMouseEnter = btnAcoesGerarMouseEnter
+            OnMouseLeave = btnAcoesGerarMouseLeave
+          end
+        end
+      end
+    end
+    object layListaPrincipal: TLayout
+      Align = Bottom
+      Margins.Bottom = 8.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 348.000000000000000000
+      Size.Width = 774.000000000000000000
+      Size.Height = 140.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object rectListaFundo: TRectangle
+        Align = Contents
+        Fill.Color = xFF202020
+        Opacity = 0.600000023841857900
+        Size.Width = 774.000000000000000000
+        Size.Height = 140.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 5.000000000000000000
+        YRadius = 5.000000000000000000
+      end
+      object layListaConteudo: TLayout
+        Align = Client
+        Size.Width = 774.000000000000000000
+        Size.Height = 140.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object layLista1: TLayout
+          Align = Top
+          Size.Width = 774.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object lblLista10: TLabel
+            Align = Client
+            StyledSettings = [Family]
+            Margins.Right = 16.000000000000000000
+            Size.Width = 498.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = '[]'
+            TabOrder = 0
+          end
+          object Label1: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style]
+            Margins.Left = 16.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Position.X = 16.000000000000000000
+            Size.Width = 236.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = 'Escolha os primeiros 10 n'#250'meros:'
+            TabOrder = 1
+          end
+        end
+        object layLista3: TLayout
+          Align = Top
+          Position.Y = 70.000000000000000000
+          Size.Width = 774.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object lblLista5B: TLabel
+            Align = Client
+            StyledSettings = [Family]
+            Margins.Right = 16.000000000000000000
+            Size.Width = 498.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = '[]'
+            TabOrder = 0
+          end
+          object Label3: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style]
+            Margins.Left = 16.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Position.X = 16.000000000000000000
+            Size.Width = 236.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = 'Escolha os pr'#243'ximos 5 n'#250'meros:'
+            TabOrder = 1
+          end
+        end
+        object layLista2: TLayout
+          Align = Top
+          Position.Y = 35.000000000000000000
+          Size.Width = 774.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object lblLista5A: TLabel
+            Align = Client
+            StyledSettings = [Family]
+            Margins.Right = 16.000000000000000000
+            Size.Width = 498.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = '[]'
+            TabOrder = 0
+          end
+          object Label2: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style]
+            Margins.Left = 16.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Position.X = 16.000000000000000000
+            Size.Width = 236.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = 'Escolha os pr'#243'ximos 5 n'#250'meros:'
+            TabOrder = 1
+          end
+        end
+        object layLista4: TLayout
+          Align = Client
+          Size.Width = 774.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object lblLista5C: TLabel
+            Align = Client
+            StyledSettings = [Family]
+            Margins.Right = 16.000000000000000000
+            Size.Width = 498.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = '[]'
+            TabOrder = 0
+          end
+          object Label4: TLabel
+            Align = Left
+            AutoSize = True
+            StyledSettings = [Family, Style]
+            Margins.Left = 16.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Position.X = 16.000000000000000000
+            Size.Width = 236.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = claWhitesmoke
+            Text = 'Escolha os pr'#243'ximos 5 n'#250'meros:'
+            TabOrder = 1
+          end
+        end
+      end
+    end
+    object layCartelaJogos: TLayout
+      Align = Bottom
+      Position.X = 8.000000000000000000
+      Position.Y = 496.000000000000000000
+      Size.Width = 774.000000000000000000
+      Size.Height = 146.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object rectCartelaJogos: TRectangle
+        Align = Contents
+        Fill.Color = xFF202020
+        Size.Width = 774.000000000000000000
+        Size.Height = 146.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object gplCartelaJogos: TGridPanelLayout
+        Align = Bottom
+        Size.Width = 774.000000000000000000
+        Size.Height = 146.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end
+          item
+            Value = 5.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = crcCartela01Jogo01
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = crcCartela01Jogo02
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = crcCartela01Jogo03
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = crcCartela01Jogo04
+            Row = 0
+          end
+          item
+            Column = 4
+            Control = crcCartela01Jogo05
+            Row = 0
+          end
+          item
+            Column = 5
+            Control = crcCartela01Jogo06
+            Row = 0
+          end
+          item
+            Column = 6
+            Control = crcCartela01Jogo07
+            Row = 0
+          end
+          item
+            Column = 7
+            Control = crcCartela01Jogo08
+            Row = 0
+          end
+          item
+            Column = 8
+            Control = crcCartela01Jogo09
+            Row = 0
+          end
+          item
+            Column = 9
+            Control = crcCartela01Jogo10
+            Row = 0
+          end
+          item
+            Column = 10
+            Control = crcCartela01Jogo11
+            Row = 0
+          end
+          item
+            Column = 11
+            Control = crcCartela01Jogo12
+            Row = 0
+          end
+          item
+            Column = 12
+            Control = crcCartela01Jogo13
+            Row = 0
+          end
+          item
+            Column = 13
+            Control = crcCartela01Jogo14
+            Row = 0
+          end
+          item
+            Column = 14
+            Control = crcCartela01Jogo15
+            Row = 0
+          end
+          item
+            Column = 15
+            Control = crcCartela01Jogo16
+            Row = 0
+          end
+          item
+            Column = 16
+            Control = crcCartela01Jogo17
+            Row = 0
+          end
+          item
+            Column = 17
+            Control = crcCartela01Jogo18
+            Row = 0
+          end
+          item
+            Column = 18
+            Control = crcCartela01Jogo19
+            Row = 0
+          end
+          item
+            Column = 19
+            Control = crcCartela01Jogo20
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = crcCartela02Jogo01
+            Row = 1
+          end
+          item
+            Column = 1
+            Control = crcCartela02Jogo02
+            Row = 1
+          end
+          item
+            Column = 2
+            Control = crcCartela02Jogo03
+            Row = 1
+          end
+          item
+            Column = 3
+            Control = crcCartela02Jogo04
+            Row = 1
+          end
+          item
+            Column = 4
+            Control = crcCartela02Jogo05
+            Row = 1
+          end
+          item
+            Column = 5
+            Control = crcCartela02Jogo06
+            Row = 1
+          end
+          item
+            Column = 6
+            Control = crcCartela02Jogo07
+            Row = 1
+          end
+          item
+            Column = 7
+            Control = crcCartela02Jogo08
+            Row = 1
+          end
+          item
+            Column = 8
+            Control = crcCartela02Jogo09
+            Row = 1
+          end
+          item
+            Column = 9
+            Control = crcCartela02Jogo10
+            Row = 1
+          end
+          item
+            Column = 10
+            Control = crcCartela02Jogo11
+            Row = 1
+          end
+          item
+            Column = 11
+            Control = crcCartela02Jogo12
+            Row = 1
+          end
+          item
+            Column = 12
+            Control = crcCartela02Jogo13
+            Row = 1
+          end
+          item
+            Column = 13
+            Control = crcCartela02Jogo14
+            Row = 1
+          end
+          item
+            Column = 14
+            Control = crcCartela02Jogo15
+            Row = 1
+          end
+          item
+            Column = 15
+            Control = crcCartela02Jogo16
+            Row = 1
+          end
+          item
+            Column = 16
+            Control = crcCartela02Jogo17
+            Row = 1
+          end
+          item
+            Column = 17
+            Control = crcCartela02Jogo18
+            Row = 1
+          end
+          item
+            Column = 18
+            Control = crcCartela02Jogo19
+            Row = 1
+          end
+          item
+            Column = 19
+            Control = crcCartela02Jogo20
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = crcCartela03Jogo01
+            Row = 2
+          end
+          item
+            Column = 1
+            Control = crcCartela03Jogo02
+            Row = 2
+          end
+          item
+            Column = 2
+            Control = crcCartela03Jogo03
+            Row = 2
+          end
+          item
+            Column = 3
+            Control = crcCartela03Jogo04
+            Row = 2
+          end
+          item
+            Column = 4
+            Control = crcCartela03Jogo05
+            Row = 2
+          end
+          item
+            Column = 5
+            Control = crcCartela03Jogo06
+            Row = 2
+          end
+          item
+            Column = 6
+            Control = crcCartela03Jogo07
+            Row = 2
+          end
+          item
+            Column = 7
+            Control = crcCartela03Jogo08
+            Row = 2
+          end
+          item
+            Column = 8
+            Control = crcCartela03Jogo09
+            Row = 2
+          end
+          item
+            Column = 9
+            Control = crcCartela03Jogo10
+            Row = 2
+          end
+          item
+            Column = 10
+            Control = crcCartela03Jogo11
+            Row = 2
+          end
+          item
+            Column = 11
+            Control = crcCartela03Jogo12
+            Row = 2
+          end
+          item
+            Column = 12
+            Control = crcCartela03Jogo13
+            Row = 2
+          end
+          item
+            Column = 13
+            Control = crcCartela03Jogo14
+            Row = 2
+          end
+          item
+            Column = 14
+            Control = crcCartela03Jogo15
+            Row = 2
+          end
+          item
+            Column = 15
+            Control = crcCartela03Jogo16
+            Row = 2
+          end
+          item
+            Column = 16
+            Control = crcCartela03Jogo17
+            Row = 2
+          end
+          item
+            Column = 17
+            Control = crcCartela03Jogo18
+            Row = 2
+          end
+          item
+            Column = 18
+            Control = crcCartela03Jogo19
+            Row = 2
+          end
+          item
+            Column = 19
+            Control = crcCartela03Jogo20
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = crcCartela04Jogo01
+            Row = 3
+          end
+          item
+            Column = 1
+            Control = crcCartela04Jogo02
+            Row = 3
+          end
+          item
+            Column = 2
+            Control = crcCartela04Jogo03
+            Row = 3
+          end
+          item
+            Column = 3
+            Control = crcCartela04Jogo04
+            Row = 3
+          end
+          item
+            Column = 4
+            Control = crcCartela04Jogo05
+            Row = 3
+          end
+          item
+            Column = 5
+            Control = crcCartela04Jogo06
+            Row = 3
+          end
+          item
+            Column = 6
+            Control = crcCartela04Jogo07
+            Row = 3
+          end
+          item
+            Column = 7
+            Control = crcCartela04Jogo08
+            Row = 3
+          end
+          item
+            Column = 8
+            Control = crcCartela04Jogo09
+            Row = 3
+          end
+          item
+            Column = 9
+            Control = crcCartela04Jogo10
+            Row = 3
+          end
+          item
+            Column = 10
+            Control = crcCartela04Jogo11
+            Row = 3
+          end
+          item
+            Column = 11
+            Control = crcCartela04Jogo12
+            Row = 3
+          end
+          item
+            Column = 12
+            Control = crcCartela04Jogo13
+            Row = 3
+          end
+          item
+            Column = 13
+            Control = crcCartela04Jogo14
+            Row = 3
+          end
+          item
+            Column = 14
+            Control = crcCartela04Jogo15
+            Row = 3
+          end
+          item
+            Column = 15
+            Control = crcCartela04Jogo16
+            Row = 3
+          end
+          item
+            Column = 16
+            Control = crcCartela04Jogo17
+            Row = 3
+          end
+          item
+            Column = 17
+            Control = crcCartela04Jogo18
+            Row = 3
+          end
+          item
+            Column = 18
+            Control = crcCartela04Jogo19
+            Row = 3
+          end
+          item
+            Column = 19
+            Control = crcCartela04Jogo20
+            Row = 3
+          end>
+        RowCollection = <
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            SizeStyle = Auto
+          end>
+        object crcCartela01Jogo01: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.750000000000000000
+          Size.Height = 28.500000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo01: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.750000000000000000
+            Size.Height = 28.500000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo02: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo02: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo03: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo03: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo04: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo04: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo05: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo05: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo06: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo06: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo07: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo07: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo08: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo08: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo09: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo09: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo10: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo10: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo11: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo11: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo12: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo12: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo13: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo13: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo14: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo14: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo15: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo15: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo16: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo16: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo17: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo17: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo18: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo18: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo19: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo19: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela01Jogo20: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela01Jogo20: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo01: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 29.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo01: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 29.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo02: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo02: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo03: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo03: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo04: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo04: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo05: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo05: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo06: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo06: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo07: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo07: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo08: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo08: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo09: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo09: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo10: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo10: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo11: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo11: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo12: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo12: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo13: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo13: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo14: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo14: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo15: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo15: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo16: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo16: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo17: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo17: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo18: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo18: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo19: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo19: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela02Jogo20: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela02Jogo20: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo01: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 29.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo01: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 29.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo02: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo02: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo03: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo03: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo04: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo04: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo05: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo05: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo06: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo06: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo07: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo07: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo08: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo08: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo09: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo09: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo10: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo10: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo11: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo11: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo12: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo12: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo13: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo13: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo14: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo14: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo15: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo15: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo16: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo16: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo17: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo17: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo18: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo18: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo19: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo19: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela03Jogo20: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela03Jogo20: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo01: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo01: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo02: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo02: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo03: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo03: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo04: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo04: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo05: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo05: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo06: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo06: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo07: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo07: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo08: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo08: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo09: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo09: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo10: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo10: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo11: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo11: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo12: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo12: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo13: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo13: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo14: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 37.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo14: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 37.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo15: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo15: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo16: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo16: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo17: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo17: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo18: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 38.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo18: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 38.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo19: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo19: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+        object crcCartela04Jogo20: TCircle
+          Align = Center
+          Fill.Color = claFuchsia
+          Size.Width = 36.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object lblCartela04Jogo20: TLabel
+            Tag = 25
+            Align = Client
+            AutoSize = True
+            StyledSettings = [Family]
+            Locked = True
+            Size.Width = 36.000000000000000000
+            Size.Height = 28.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhitesmoke
+            TextSettings.HorzAlign = Center
+            Text = '0'
+            TabOrder = 0
+          end
+        end
+      end
+    end
+  end
+  object actlLotofacil: TActionList
+    Left = 312
+    Top = 80
+    object actLimpar: TAction
+      Category = 'Lotofacil'
+      Text = 'Limpar/Reiniciar'
+      OnExecute = actLimparExecute
+    end
+    object actCompletar: TAction
+      Category = 'Lotofacil'
+      Text = 'Completar'
+      OnExecute = actCompletarExecute
+    end
+    object actGerar: TAction
+      Category = 'Lotofacil'
+      Text = 'Gerar'
+      OnExecute = actGerarExecute
+    end
+    object actBotao1: TAction
+      Category = 'Lotofacil'
+      Text = '01'
+      OnExecute = actBotao1Execute
+    end
+    object actBotao2: TAction
+      Category = 'Lotofacil'
+      Text = '02'
+      OnExecute = actBotao2Execute
+    end
+    object actBotao3: TAction
+      Category = 'Lotofacil'
+      Text = '03'
+      OnExecute = actBotao3Execute
+    end
+    object actBotao4: TAction
+      Category = 'Lotofacil'
+      Text = '04'
+      OnExecute = actBotao4Execute
+    end
+    object actBotao5: TAction
+      Category = 'Lotofacil'
+      Text = '05'
+      OnExecute = actBotao5Execute
+    end
+    object actBotao6: TAction
+      Category = 'Lotofacil'
+      Text = '06'
+      OnExecute = actBotao6Execute
+    end
+    object actBotao7: TAction
+      Category = 'Lotofacil'
+      Text = '07'
+      OnExecute = actBotao7Execute
+    end
+    object actBotao8: TAction
+      Category = 'Lotofacil'
+      Text = '08'
+      OnExecute = actBotao8Execute
+    end
+    object actBotao9: TAction
+      Category = 'Lotofacil'
+      Text = '09'
+      OnExecute = actBotao9Execute
+    end
+    object actBotao10: TAction
+      Category = 'Lotofacil'
+      Text = '10'
+      OnExecute = actBotao10Execute
+    end
+    object actBotao11: TAction
+      Category = 'Lotofacil'
+      Text = '11'
+      OnExecute = actBotao11Execute
+    end
+    object actBotao12: TAction
+      Category = 'Lotofacil'
+      Text = '12'
+      OnExecute = actBotao12Execute
+    end
+    object actBotao13: TAction
+      Category = 'Lotofacil'
+      Text = '13'
+      OnExecute = actBotao13Execute
+    end
+    object actBotao14: TAction
+      Category = 'Lotofacil'
+      Text = '14'
+      OnExecute = actBotao14Execute
+    end
+    object actBotao15: TAction
+      Category = 'Lotofacil'
+      Text = '15'
+      OnExecute = actBotao15Execute
+    end
+    object actBotao16: TAction
+      Category = 'Lotofacil'
+      Text = '16'
+      OnExecute = actBotao16Execute
+    end
+    object actBotao17: TAction
+      Category = 'Lotofacil'
+      Text = '17'
+      OnExecute = actBotao17Execute
+    end
+    object actBotao18: TAction
+      Category = 'Lotofacil'
+      Text = '18'
+      OnExecute = actBotao18Execute
+    end
+    object actBotao19: TAction
+      Category = 'Lotofacil'
+      Text = '19'
+      OnExecute = actBotao19Execute
+    end
+    object actBotao20: TAction
+      Category = 'Lotofacil'
+      Text = '20'
+      OnExecute = actBotao20Execute
+    end
+    object actBotao21: TAction
+      Category = 'Lotofacil'
+      Text = '21'
+      OnExecute = actBotao21Execute
+    end
+    object actBotao22: TAction
+      Category = 'Lotofacil'
+      Text = '22'
+      OnExecute = actBotao22Execute
+    end
+    object actBotao23: TAction
+      Category = 'Lotofacil'
+      Text = '23'
+      OnExecute = actBotao23Execute
+    end
+    object actBotao24: TAction
+      Category = 'Lotofacil'
+      Text = '24'
+      OnExecute = actBotao24Execute
+    end
+    object actBotao25: TAction
+      Category = 'Lotofacil'
+      Text = '25'
+      OnExecute = actBotao25Execute
+    end
+  end
+end

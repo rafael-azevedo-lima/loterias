@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{7A426AE2-66EE-4921-A5A8-69AA89B94BE6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Loterias.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Loterias">
+        <MSBuild Projects="Loterias.dproj"/>
+    </Target>
+    <Target Name="Loterias:Clean">
+        <MSBuild Projects="Loterias.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Loterias:Make">
+        <MSBuild Projects="Loterias.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Loterias"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Loterias:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Loterias:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
