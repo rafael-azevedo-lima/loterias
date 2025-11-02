@@ -44,7 +44,7 @@ Você pode fazer suas apostas de forma prática e segura:
 ## <img width="16" height="16" alt="favicon-16x16" src="https://github.com/user-attachments/assets/31f37a3f-be0a-42e7-a1f5-1fada399c450" />
  Gerador de números
 
- Totalmente codificado em DELPHI FMX sem enhum componente de terceiro na IDE Delphi 12 Community.
+ Totalmente codificado em DELPHI FMX - somente omponentes nativos da IDE Delphi 12 Community.
 
 
 <img width="846" height="685" alt="image" src="https://github.com/user-attachments/assets/8912b3cb-8ae3-43d8-ba30-63b95a14d38d" />
